@@ -6,7 +6,8 @@ from typing import Dict, Any
 datasets_path = '..\datasets'
 fixtures_path = '..\\fixtures'
 
-models = {'ads.csv': 'ads.advertisement', 'categories.csv': "ads.category"}
+models = {'ads.csv': 'ads.advertisement',
+          'categories.csv': "ads.category"}
 
 ads_filename = 'ads.csv'
 categories_filename = 'categories.csv'
